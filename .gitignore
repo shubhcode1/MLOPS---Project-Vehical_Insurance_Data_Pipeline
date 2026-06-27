@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# important instruction
+important.txt
+crashcourse.txt
+*.sh
+Miniconda3-latest-Linux-x86_64.sh
