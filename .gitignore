@@ -225,3 +225,4 @@ crashcourse.txt
 *.sh
 Miniconda3-latest-Linux-x86_64.sh
 notebook/mongoDB_demo.ipynb
+/artifact

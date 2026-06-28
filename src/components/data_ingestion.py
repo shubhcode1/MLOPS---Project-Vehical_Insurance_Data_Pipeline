@@ -21,7 +21,7 @@ class DataIngestion:
             raise MyException(e,sys)
         
 
-    def export_data_into_feature_store(self)->DataFrame:
+    def  export_data_into_feature_store(self)->DataFrame:
         """
         Method Name :   export_data_into_feature_store
         Description :   This method exports data from mongodb to csv file

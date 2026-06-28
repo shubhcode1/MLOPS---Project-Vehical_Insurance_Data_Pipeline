@@ -39,6 +39,7 @@
                         *** For Bash ***
     set: export MONGODB_URL="mongodb+srv://<username>:<password>......"
     check: echo $MONGODB_URL
+    mongosh "mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority"
                         *** For Powershell ***
     set: $env:MONGODB_URL = "mongodb+srv://<username>:<password>......"
     check: echo $env:MONGODB_URL
