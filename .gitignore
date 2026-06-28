@@ -224,4 +224,4 @@ important.txt
 crashcourse.txt
 *.sh
 Miniconda3-latest-Linux-x86_64.sh
-mongoDB_demo.ipynb
+notebook/mongoDB_demo.ipynb
