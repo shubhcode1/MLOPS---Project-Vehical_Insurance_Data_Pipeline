@@ -10,7 +10,7 @@ from src.exception import MyException
 from src.logger import logging
 from src.data_access.proj1_data import Proj1Data
 
-class DataIngestion:
+class  DataIngestion:
     def __init__(self,data_ingestion_config:DataIngestionConfig=DataIngestionConfig()):
         """
         :param data_ingestion_config: configuration for data ingestion
@@ -102,3 +102,7 @@ class DataIngestion:
             return data_ingestion_artifact
         except Exception as e:
             raise MyException(e, sys) from e
+
+
+
+            
