@@ -91,6 +91,7 @@ class DataValidation:
         """
 
         try:
+            print("------------------------------------------------------------------------------------------------")
             validation_error_msg = ""
             logging.info("Starting data validation")
             train_df, test_df = (DataValidation.read_data(file_path=self.data_ingestion_artifact.trained_file_path),
