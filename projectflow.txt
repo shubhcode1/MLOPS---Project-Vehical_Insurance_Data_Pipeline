@@ -150,7 +150,27 @@
 34. You can also do model training on /training route
 
 
-
+             GitHub
+               │
+               │
+         Source Code
+               │
+               ▼
+       Docker Build
+               │
+               ▼
+             ECR
+        (Docker Image)
+               │
+      docker pull
+               ▼
+             EC2
+      Runs FastAPI App
+               │
+ Reads model/data from
+               ▼
+              S3
+    model.pkl, datasets, logs
 
 
 
