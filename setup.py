@@ -1,9 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages  
+
 
 setup(
-    name="src",
+    name="Vehical-Insurance-Project",
     version="0.0.1",
-    author="Vikash Das",
-    author_email="vikashdas770@gmail.com",
+    author="Shubham Kale",
+    author_email="Kaleshubham8459@gmail.com",
     packages=find_packages()
 )
